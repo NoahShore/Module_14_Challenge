@@ -23,6 +23,12 @@ function init()
         
             dropdownMenu.append("option").text(id).property("value",id);
         });
+        let sample_one = names[0];
+        
+        console.log(sample_one);
+        createMetadata(sample_one);
+        createBarChart(sample_one);
+        createBubbleChart(sample_one);
     });
 };
  
